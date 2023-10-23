@@ -4,14 +4,18 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>66a609b0-0f81-4cba-b10b-da447196b2aa</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.22.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <Reference Include="BookClubClassLibrary">
+      <HintPath>..\BookClubClassLibrary\bin\Release\net6.0\BookClubClassLibrary.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
