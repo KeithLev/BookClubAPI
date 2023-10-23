@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using BookClubClassLibrary;
 using BookClubAPI.MongoDB;
 using MongoDB.Driver;
-using Microsoft.OpenApi.Writers;
 
 namespace BookClubAPI.Controllers
 {
